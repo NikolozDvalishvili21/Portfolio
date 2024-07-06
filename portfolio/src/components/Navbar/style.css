@@ -2,7 +2,7 @@
     display: flex;
     gap: 40px;
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 40px;
   }
   
   .inner_content_side {
@@ -27,7 +27,7 @@
   .projects:hover,
   .about:hover,
   .contact:hover {
-    border-bottom: 3px solid #17d102;
+    color: #F700FF;
   }
   
   .burger {
