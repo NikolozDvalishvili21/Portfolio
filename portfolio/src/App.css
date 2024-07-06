@@ -6,3 +6,7 @@
   font-family: "computer";
   src: url("../public/fonts/LazenbyCompSmooth.ttf") format("truetype");
 }
+
+* {
+  background-color: #101010;
+}
