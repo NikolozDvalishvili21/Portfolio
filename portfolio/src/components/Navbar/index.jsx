@@ -58,7 +58,7 @@ const Navbar = () => {
                 Contact
               </a>
             </div>
-            <div className="close-btn" onClick={closeMenu}>
+            <div className="close-btn" onClick={closeMenu} style={{fontFamily: "retro"}}>
               X
             </div>
           </div>
