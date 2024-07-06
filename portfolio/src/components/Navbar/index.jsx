@@ -14,7 +14,7 @@ const Navbar = () => {
           backSpeed={20}
           cursorChar=">"
           showCursor={true}
-          style={{fontFamily: 'retro', color: "#17D102"}}
+          style={{fontFamily: 'retro', color: "#17D102", fontSize: "25px"}}
         />
     </>
   );

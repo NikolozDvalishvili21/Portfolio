@@ -6,6 +6,7 @@ module.exports = {
   },
   fontFamily: {
     retro: ["retro"],
+    computer: ["computer"],
   },
   plugins: [],
 };

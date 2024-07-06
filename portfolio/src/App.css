@@ -1,5 +1,8 @@
 @font-face {
-  font-family: 'retro';
-  src: url('../public/fonts/retro_computer_personal_use.ttf') format('truetype');
+  font-family: "retro";
+  src: url("../public/fonts/retro_computer_personal_use.ttf") format("truetype");
 }
-
+@font-face {
+  font-family: "computer";
+  src: url("../public/fonts/LazenbyCompSmooth.ttf") format("truetype");
+}
