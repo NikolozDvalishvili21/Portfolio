@@ -1,0 +1,23 @@
+.inner_content {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.home,
+.projects,
+.about,
+.contact {
+  color: #17d102;
+  text-decoration: none;
+  font-family: "retro";
+}
+
+.home:hover,
+.projects:hover,
+.about:hover,
+.contact:hover {
+    border-bottom: 3px solid #17d102;
+}
+
