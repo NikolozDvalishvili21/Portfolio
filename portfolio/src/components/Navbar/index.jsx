@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../Navbar/style.css";
 import useIsMobile from "../../hooks/resize";
 
@@ -13,6 +13,19 @@ const Navbar = () => {
   const closeMenu = () => {
     setIsOpen(false);
   };
+
+  useEffect(() => {
+    if (isOpen) {
+      document.body.classList.add("no-scroll");
+    } else {
+      document.body.classList.remove("no-scroll");
+    }
+
+    // Cleanup on unmount
+    return () => {
+      document.body.classList.remove("no-scroll");
+    };
+  }, [isOpen]);
 
   return (
     <>
@@ -31,11 +44,11 @@ const Navbar = () => {
             <a href="#" className="about">
               About
             </a>
-            <a href="#" className="projects">
-              Projects
-            </a>
             <a href="#" className="contact">
               Contact
+            </a>
+            <a href="#" className="projects">
+              Projects
             </a>
           </div>
         </div>
@@ -45,18 +58,17 @@ const Navbar = () => {
         <div className="overlay">
           <div className="sidebar">
             <div className="inner_content_side">
-              <a href="#" className="home">
+              <a href="#" className="home" onClick={closeMenu}>
                 Home
               </a>
-              <a href="#" className="about">
+              <a href="#" className="about" onClick={closeMenu}>
                 About
               </a>
-              <a href="#" className="projects">
-                Projects
-              </a>
-
-              <a href="#" className="contact">
+              <a href="#" className="contact" onClick={closeMenu}>
                 Contact
+              </a>
+              <a href="#" className="projects" onClick={closeMenu}>
+                Projects
               </a>
             </div>
             <div
