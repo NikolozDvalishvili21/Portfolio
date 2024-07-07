@@ -1,0 +1,32 @@
+.me-container {
+  background-color: #0100a6;
+  width: 100%;
+  min-height: 50vh; /* Use min-height to ensure container expands as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px; /* Adjusted gap */
+  padding: 20px; /* Added padding to maintain spacing */
+}
+
+.title-me {
+  font-size: 30px;
+  color: white;
+  font-family: "retro";
+  background-color: transparent;
+  /* padding-top: 20px; */
+}
+
+.about-me-text {
+  background-color: transparent;
+  padding: 0 40px; /* Adjusted padding for text */
+  font-size: 25px;
+}
+
+/* Override background for cursor */
+.react-typed-cursor {
+  background-color: transparent !important;
+}
+
+
