@@ -28,11 +28,11 @@ const Navbar = () => {
             <a href="#" className="home">
               Home
             </a>
-            <a href="#" className="projects">
-              Projects
-            </a>
             <a href="#" className="about">
               About
+            </a>
+            <a href="#" className="projects">
+              Projects
             </a>
             <a href="#" className="contact">
               Contact
@@ -48,17 +48,22 @@ const Navbar = () => {
               <a href="#" className="home">
                 Home
               </a>
-              <a href="#" className="projects">
-                Projects
-              </a>
               <a href="#" className="about">
                 About
               </a>
+              <a href="#" className="projects">
+                Projects
+              </a>
+
               <a href="#" className="contact">
                 Contact
               </a>
             </div>
-            <div className="close-btn" onClick={closeMenu} style={{fontFamily: "retro"}}>
+            <div
+              className="close-btn"
+              onClick={closeMenu}
+              style={{ fontFamily: "retro" }}
+            >
               X
             </div>
           </div>

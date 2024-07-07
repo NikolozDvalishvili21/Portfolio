@@ -1,19 +1,41 @@
 .introduction {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   width: 100%;
-  max-width: 900px; /* Adjust max-width as needed */
-  height: 80vh;
+  max-width: 900px;
+  height: 100vh; /* Full viewport height */
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+  margin: auto; /* Center horizontally */
+  gap: 100px;
+}
+
+.react-typed-text-wrapper {
+  margin-bottom: 20px; /* Space between text and button */
+}
+
+.learn-more {
+  background-color: #bfbfbf;
+  color: black;
+  font-family: "retro";
+  font-size: 20px;
+  padding: 10px 20px;
+  border: none;
+  /* border-radius: 5px; */
+  cursor: pointer;
+  transition: background-color 0.3s;
+  box-shadow: inset 0px 0px 5px 2px white;
+}
+
+.learn-more:hover {
+  background-color: #17D102;
+  color: white;
+  box-shadow: none;
 }
 
 @media only screen and (max-width: 1024px) {
-    .introduction {
-        text-align: center;
-    }
+  .introduction {
+    text-align: center;
+  }
 }
-
