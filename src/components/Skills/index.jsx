@@ -53,80 +53,6 @@ const Skills = () => {
                   CSS
                 </p>
               </div>
-              <div className="sql">
-                <img
-                  src={SQL}
-                  alt=""
-                  style={{
-                    width: "90px",
-                    height: "90px",
-                    backgroundColor: "transparent",
-                    filter: "invert(1)",
-                    paddingTop: "10px",
-                    paddingLeft: "5px"
-                  }}
-                />
-                <p
-                  className="skill-title"
-                  style={{
-                    fontFamily: "retro",
-                    color: "white",
-                    paddingTop: "6px",
-                    paddingRight: "10px",
-                  }}
-                >
-                  SQL
-                </p>
-              </div>
-            </div>
-
-            <div className="skills-container-second">
-              <div className="php">
-                <img
-                  src={PHP}
-                  alt=""
-                  style={{
-                    width: "90px",
-                    height: "90px",
-                    backgroundColor: "transparent",
-                    filter: "invert(1)",
-                    paddingTop: "10px",
-                  }}
-                />
-                <p
-                  className="skill-title"
-                  style={{
-                    fontFamily: "retro",
-                    color: "white",
-                    // paddingTop: "6px",
-                  }}
-                >
-                  PHP
-                </p>
-              </div>
-              <div className="react">
-                <img
-                  src={REACT}
-                  alt=""
-                  style={{
-                    width: "90px",
-                    height: "90px",
-                    backgroundColor: "transparent",
-                    filter: "invert(1)",
-                    paddingTop: "10px",
-                  }}
-                />
-                <p
-                  className="skill-title"
-                  style={{
-                    fontFamily: "retro",
-                    color: "white",
-                    // paddingTop: "6px",
-                  }}
-                >
-                  REACT
-                </p>
-              </div>
               <div className="js">
                 <img
                   src={JS}
@@ -144,10 +70,81 @@ const Skills = () => {
                   style={{
                     fontFamily: "retro",
                     color: "white",
-                    // paddingTop: "6px",
                   }}
                 >
                   JS
+                </p>
+              </div>
+            </div>
+
+            <div className="skills-container-second">
+              <div className="react">
+                <img
+                  src={REACT}
+                  alt=""
+                  style={{
+                    width: "90px",
+                    height: "90px",
+                    backgroundColor: "transparent",
+                    filter: "invert(1)",
+                    paddingTop: "10px",
+                  }}
+                />
+                <p
+                  className="skill-title"
+                  style={{
+                    fontFamily: "retro",
+                    color: "white",
+                  }}
+                >
+                  REACT
+                </p>
+              </div>
+              <div className="php">
+                <img
+                  src={PHP}
+                  alt=""
+                  style={{
+                    width: "90px",
+                    height: "90px",
+                    backgroundColor: "transparent",
+                    filter: "invert(1)",
+                    paddingTop: "10px",
+                  }}
+                />
+                <p
+                  className="skill-title"
+                  style={{
+                    fontFamily: "retro",
+                    color: "white",
+                  }}
+                >
+                  PHP
+                </p>
+              </div>
+              <div className="sql">
+                <img
+                  src={SQL}
+                  alt=""
+                  style={{
+                    width: "90px",
+                    height: "90px",
+                    backgroundColor: "transparent",
+                    filter: "invert(1)",
+                    paddingTop: "10px",
+                    paddingLeft: "5px",
+                  }}
+                />
+                <p
+                  className="skill-title"
+                  style={{
+                    fontFamily: "retro",
+                    color: "white",
+                    paddingTop: "6px",
+                    paddingRight: "10px",
+                  }}
+                >
+                  SQL
                 </p>
               </div>
             </div>
@@ -193,33 +190,9 @@ const Skills = () => {
                 CSS
               </p>
             </div>
-            <div className="sql">
+            <div className="js">
               <img
-                src={SQL}
-                alt=""
-                style={{
-                  width: "90px",
-                  height: "90px",
-                  backgroundColor: "transparent",
-                  filter: "invert(1)",
-                  paddingTop: "10px",
-                }}
-              />
-              <p
-                className="skill-title"
-                style={{
-                  fontFamily: "retro",
-                  color: "white",
-                  paddingTop: "6px",
-                  paddingRight: "10px",
-                }}
-              >
-                SQL
-              </p>
-            </div>
-            <div className="php">
-              <img
-                src={PHP}
+                src={JS}
                 alt=""
                 style={{
                   width: "90px",
@@ -237,7 +210,7 @@ const Skills = () => {
                   paddingTop: "6px",
                 }}
               >
-                PHP
+                Javascript
               </p>
             </div>
             <div className="react">
@@ -263,9 +236,9 @@ const Skills = () => {
                 REACT
               </p>
             </div>
-            <div className="js">
+            <div className="php">
               <img
-                src={JS}
+                src={PHP}
                 alt=""
                 style={{
                   width: "90px",
@@ -283,7 +256,31 @@ const Skills = () => {
                   paddingTop: "6px",
                 }}
               >
-                Javascript
+                PHP
+              </p>
+            </div>
+            <div className="sql">
+              <img
+                src={SQL}
+                alt=""
+                style={{
+                  width: "90px",
+                  height: "90px",
+                  backgroundColor: "transparent",
+                  filter: "invert(1)",
+                  paddingTop: "10px",
+                }}
+              />
+              <p
+                className="skill-title"
+                style={{
+                  fontFamily: "retro",
+                  color: "white",
+                  paddingTop: "6px",
+                  paddingRight: "10px",
+                }}
+              >
+                SQL
               </p>
             </div>
           </div>
