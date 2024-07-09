@@ -1,0 +1,41 @@
+.project-content {
+  background-color: #0100a6;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  /* gap: 50px; */
+}
+
+.cards-projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+.title-projects {
+    font-family: "retro";
+    color: white;
+    font-size: 30px;
+}
+
+.see-projects {
+    font-family: "retro";
+    color: white;
+    font-size: 30px;
+    transition: 0.3s ease;
+}
+
+.see-projects:hover {
+    scale: 1.03;
+}
+
+.inner-content-projects {
+  transition: 0.3s ease;
+}
+
+.inner-content-projects:hover {
+  scale: 1.03;
+}

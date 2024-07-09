@@ -1,6 +1,7 @@
 import React from "react";
 import "../ImagePop/style.css";
 import { ReactTyped } from "react-typed";
+import me from "../../images/me.jpg"
 
 const Image = () => {
   const strings = [
@@ -11,6 +12,9 @@ const Image = () => {
 
   return (
     <div className="introduction">
+      <div className="me">
+        <img src={me} />
+      </div>
       <div className="react-typed-text-wrapper">
         <ReactTyped
           strings={strings}
