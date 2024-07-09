@@ -39,3 +39,16 @@
 .inner-content-projects:hover {
   scale: 1.03;
 }
+
+@media only screen and (max-width:1024px) {
+    .cards-projects {
+        flex-direction: column;
+        gap: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .see-projects {
+        font-size: 25px;
+    }
+}
