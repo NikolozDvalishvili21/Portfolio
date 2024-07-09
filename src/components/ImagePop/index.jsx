@@ -6,7 +6,7 @@ import me from "../../images/me.jpg"
 const Image = () => {
   const strings = [
     "<span style='color: #17D102;'>HELLO! I AM </span><span style='color: #FF5733;'>NIKA DVALISHVILI</span>",
-    "TEKLA MIYVARXAR!!!!!!!!!",
+    "I LOVE CODING",
     "WELCOME TO PLATFORM ABOUT ME!",
   ];
 
